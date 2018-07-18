@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/poker_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/poker_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="@dimen/poker_text_size_bottom"
+        android:fontFamily="serif"
+        android:text="@string/poker"
+        android:textColor="@color/name_color"
+        android:textSize="@dimen/poker_text_size"
+        android:textStyle="bold"
+
+        />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/skipButtonId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/skip_button_size_start"
+            android:background="@null"
+            android:text="@string/skip"
+            android:textColor="@color/skip_botton_color"
+            android:textSize="15sp" />
+
+
+    </FrameLayout>
+
+</FrameLayout>

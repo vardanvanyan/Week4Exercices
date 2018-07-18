@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment.ChatFragment">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/user_chat_image"
+        android:layout_width="@dimen/chat_image_width"
+        android:layout_height="@dimen/chat_image_height" />
+
+    <TextView
+        android:id="@+id/chat_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/chat" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/chat_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/rcv_size_bottom"
+        android:layout_marginTop="@dimen/rcv_size_top">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <EditText
+        android:id="@+id/enter_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/send"
+        android:hint="@string/enter_your_message" />
+
+    <ImageButton
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_textsms_black_24dp" />
+
+
+</RelativeLayout>

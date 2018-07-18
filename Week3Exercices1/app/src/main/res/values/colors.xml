@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="name_color">#6596b6</color>
+    <color name="dinasty_color">#0be916</color>
+    <color name="button_color">#322fff</color>
+    <color name="tabLayoutColor">#cad1d0</color>
+    <color name="tab_indicator_defoult_color">#ffffff</color>
+    <color name="tab_indicator_selected_color">#5086a7</color>
+    <color name="skip_botton_color">#6578ab</color>
+    <color name="user_background_color">#d2ecff</color>
+    <color name="call_backround_color">#d2ecff</color>
+    <color name="email_background_color">#d2ecff</color>
+    <color name="chat_background_color">#e2f1ed</color>
+</resources>

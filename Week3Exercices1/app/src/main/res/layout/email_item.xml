@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/email_background_color">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circle_email_image"
+        android:layout_width="@dimen/email_item_image_size_width"
+        android:layout_height="@dimen/email_item_image_size_height" />
+
+
+    <TextView
+        android:id="@+id/email_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/email_text_size_start"
+        android:layout_marginTop="@dimen/email_text_size_top" />
+
+    <TextView
+        android:id="@+id/email_sms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/email_sms_size_start"
+        android:layout_marginTop="@dimen/email_sms_size_top" />
+
+    <ImageButton
+        android:id="@+id/email_image_button"
+        android:layout_width="@dimen/email_image_button_width"
+        android:layout_height="@dimen/email_image_button_height"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/email_image_button_size_top"
+        android:background="@null"
+        android:src="@drawable/email_24dp" />
+</RelativeLayout>
